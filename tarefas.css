@@ -1,0 +1,16 @@
+div{
+    margin: 0 auto;
+    width: 500px;
+    border: 1px solid violet ;
+    text-align: center;
+    background-color: thistle;
+    color: darkmagenta;
+}
+
+body{
+    background-color: whitesmoke ;
+}
+
+ul{
+    text-align: left;
+}
