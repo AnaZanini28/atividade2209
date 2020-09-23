@@ -11,6 +11,13 @@ body{
     background-color: whitesmoke ;
 }
 
-ul{
+ol{
     text-align: left;
+}
+
+.paraFazer{
+    color: red;
+}
+.feitas{
+    color: green;
 }
