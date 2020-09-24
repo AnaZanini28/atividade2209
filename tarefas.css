@@ -20,4 +20,14 @@ ol{
 }
 .feitas{
     color: green;
+} 
+
+button{
+    color: white;
+    background-color: darkmagenta;
+    margin-left: 10px; 
+}
+
+.teste{
+    color: yellowgreen;
 }

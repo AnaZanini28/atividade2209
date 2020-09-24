@@ -16,15 +16,15 @@ inputTarefa.onkeypress = function(evento){
         var li = document.createElement('li');
         li.innerText = tarefa;
 
-//        li.style.color = 'red';
-//
-//        li.onclick = function(){
-//          li.style.color = 'green';
-//        }
-//        
-//        li.ondblclick = function(){
-//            li.style.color = 'red';
-//        }
+        var btnNovo = document.createElement("BUTTON");
+        btnNovo.innerHTML = 'Excluir';
+
+        li.appendChild(btnNovo);
+
+        btnNovo.onclick = function(){ 
+            li.classList.add('teste');
+            li.remove(li);
+        }
 
         li.classList.add('paraFazer');
         li.onclick = function(){
